@@ -6,18 +6,26 @@
     <title>homepage</title>
 </head>
 <body>
-
+  
+<!--linking with other pages-->
   <div style="color: blue; font-family: ; text-align: center; font-size: x-large; background-color: yellow; border-radius: 20px; border: 10px; padding: 5px; border-color: blue;"> <h3></h3>
     <a href="./index.html">Homepage</a>
     <a href="./contact/contact.html">Contact</a>
-    <a href="./working-principle/working-principal.html">Working-principle</a>
+    <a href="./tables/tables.html">Tables</a>
     <a href="./skills/skills.html">Skills</a>
 <a href="./forms/forms.html">Forms</a>
 </div>
- 
- <div><h1 style="font-size: 50px; color: orangered; border-radius: 10px;">HOMEPAGE</h1> 
-   <audio src="./audio/shoaibsaeedsaifi.mpeg" controls style="color: black; border-color: red;">tilawat</audio>
-   <h4 style="color: skyblue; border-right: 10px;">Hello, Everyone! I am Shoaib Saeed Saifi the begginer student of html web development at Aziz Jan Trust Mass 
+<h1 style="font-size: 50px; color: orangered; border-radius: 10px;">HOMEPAGE</h1> 
+<!--audio source management-->
+<div>
+  <h2 style="margin-left: 40px; font-size: 30px;">Assalam O Alaikum, Everyone, </h2>
+  <h2 style="color: rgba(211, 98, 6, 0.822); margin-left: 70px; font-size: 30px;">This is Shoaib Saeed Saifi.
+  <img id="speaker" src="./icons+images/speaker.png" alt="Speaker Icon"></h2>
+</div>
+
+ <div>
+   <!--<audio src="./audio/shoaibsaeedsaifi.mpeg" controls style="color: black; border-color: red;">shoaibsaeedsaifi</audio>-->
+   <h4 style="color: skyblue; border-right: 10px;">The begginer student of html web development at Aziz Jan Trust Mass 
       IT Training Peshawar.
   
    </h4>
@@ -27,6 +35,16 @@
    </p>
   <hr>
   </div>
+  <!--script for audio-->
+  <script>
+
+    var audio =new Audio("./audio/shoaibsaeedsaifi.mpeg");
+    function playaudio(){
+      audio.play();
+    }
+    document.getElementById("speaker").addEventListener("click",playaudio);
+  </script>
 </body>
+
 
 </html>
