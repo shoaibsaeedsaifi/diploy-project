@@ -1,0 +1,30 @@
+#formspage{
+    color: yellow;
+    border-radius: 10px;
+        padding: 10px;;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: xx-large ;
+        font-style: italic;
+        text-indent: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+           border-color: tomato;
+           border-radius: 10px;
+           text-decoration: underline;
+           text-decoration: aqua;
+           text-indent: 20px;
+           background-color: crimson;
+           color: white;
+           word-spacing: 10px;
+}
+
+a:link{
+    color: green;
+    text-decoration: none;}
+    a:visited {
+    color:white;}
+    a:hover {
+    color:blue;
+    text-decoration: underline;}
+    a:active {
+        color: darkcyan;}

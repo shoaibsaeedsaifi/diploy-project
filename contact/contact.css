@@ -1,4 +1,4 @@
-#shoaibsaeedsaifi{
+#contact{
     color: yellow;
    border-radius: 10px;
     padding: 10px;;
@@ -16,11 +16,10 @@
        background-color: crimson;
        color: white;
        word-spacing: 10px;
-       
-       
-
+ 
 }
-a:link {
+
+a:link{
     color: green;
     text-decoration: none;}
     a:visited {
@@ -29,16 +28,4 @@ a:link {
     color:blue;
     text-decoration: underline;}
     a:active {
-    color: darkcyan;}
-    #student{
-       color: blue;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-decoration: solid blue;
-}
-#read{
-    color: blue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: solid blue;
-
-}
-    
+        color: darkcyan;}
